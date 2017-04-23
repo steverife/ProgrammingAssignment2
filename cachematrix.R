@@ -55,6 +55,7 @@ cacheSolve <- function(x) {
   inversematrix
 }
 
+
 ## example usage and output
 ## > test_matrix <- matrix(c(1/2, -1/4, -1, 1/4), nrow = 2, ncol = 2)
 ## > testMatrix_object <- makeCacheMatrix(test_matrix)

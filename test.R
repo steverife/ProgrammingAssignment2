@@ -1,0 +1,7 @@
+source('cachematrix.R')
+test_matrix <- matrix(c(1/2, -1/4, -1, 1/4), nrow = 2, ncol = 2)
+testMatrix_object <- makeCacheMatrix(test_matrix)
+print ('cacheSolve(testMatrix_object) first run')
+print(cacheSolve(testMatrix_object))
+print ('cacheSolve(testMatrix_object) second run')
+print(cacheSolve(testMatrix_object))
